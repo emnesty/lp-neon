@@ -4,13 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/main.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
     <title>Projeto - Landing Page Neon</title>
   </head>
   <body>
@@ -114,7 +119,148 @@
             </div>
           </div>
         </div>
+        <div class="right-area">
+          <div class="main-text">
+            <h2>Resolva sua vida direto pelo app Neon!</h2>
+            <ul>
+              <li>
+                <div class="info">
+                  <img
+                    src="./img/icon-cartao-credito.svg"
+                    class="icon"
+                    alt=""
+                  />
+                  <div class="txt">
+                    <h3>Cartão de crédito sem anuidade</h3>
+                    <p>
+                      Conta digital com cartão de crédito sem anuidade e sem
+                      complicação
+                    </p>
+                  </div>
+                </div>
+                <img src="./img/arrow-right.svg" alt="" />
+              </li>
+              <li>
+                <div class="info">
+                  <img src="./img/icon-taxas.svg" class="icon" alt="" />
+                  <div class="txt">
+                    <h3>Sem taxas</h3>
+                    <p>
+                      Transferências, boletos de depósito e outros serviços
+                      gratuitos
+                    </p>
+                  </div>
+                </div>
+                <img src="./img/arrow-right.svg" alt="" />
+              </li>
+              <li>
+                <div class="info">
+                  <img src="./img/icon-investimentos.svg" class="icon" alt="" />
+                  <div class="txt">
+                    <h3>Mais investimentos</h3>
+                    <p>
+                      Rendem mais que a poupança e você resgata quando quiser
+                    </p>
+                  </div>
+                </div>
+                <img src="./img/arrow-right.svg" alt="" />
+              </li>
+            </ul>
+            <a href="" class="btn">Conheça outros produtos</a>
+          </div>
+          <div class="box-card">
+            <div class="text">
+              <h2>Neon Pejota</h2>
+              <h3>Contas digitais PJ gratuitas para decolar seu negócio!</h3>
+              <p>
+                As melhores contas para fazer pagamentos, compras e receber dos
+                seus clientes.
+              </p>
+              <div class="btns">
+                <button class="btn-primary">Sou MEI</button>
+                <button class="btn-primary">SOU ME</button>
+              </div>
+            </div>
+            <img src="./img/card-front-pj.svg" class="image" alt="" />
+          </div>
+        </div>
       </div>
     </section>
+
+    <section class="s-depoimentos">
+      <div class="container">
+        <div class="top">
+          <h2>
+            <span>Prático, fácil, moderno</span>Você resolve tudo sem estresse
+            😊
+          </h2>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="slide-depoimentos">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card-depoimento">
+                <div class="user">
+                  <strong> @marciogurka </strong>
+                  <img src="./img/icon-twiiter.svg" alt="" />
+                </div>
+                <p>
+                  Valeu @banconenon! Linda embalagem e o cartão tbm é lindo!
+                  Muito amor por esse banco #bancoNeon
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-depoimento">
+                <div class="user">
+                  <strong> @marciogurka </strong>
+                  <img src="./img/icon-twiiter.svg" alt="" />
+                </div>
+                <p>
+                  Valeu @banconenon! Linda embalagem e o cartão tbm é lindo!
+                  Muito amor por esse banco #bancoNeon
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-depoimento">
+                <div class="user">
+                  <strong> @marciogurka </strong>
+                  <img src="./img/icon-twiiter.svg" alt="" />
+                </div>
+                <p>
+                  Valeu @banconenon! Linda embalagem e o cartão tbm é lindo!
+                  Muito amor por esse banco #bancoNeon
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-depoimento">
+                <div class="user">
+                  <strong> @marciogurka </strong>
+                  <img src="./img/icon-twiiter.svg" alt="" />
+                </div>
+                <p>
+                  Valeu @banconenon! Linda embalagem e o cartão tbm é lindo!
+                  Muito amor por esse banco #bancoNeon
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".slide-depoimentos", {
+        slidesPerView: 3,
+        spaceBetween: 32,
+        pagination: {
+          el: ".s-depoimentos .top .swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
   </body>
 </html>
