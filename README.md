@@ -11,7 +11,7 @@ Projeto desenvolvido durante o curso CodeBoost, e teve como objetivo criar uma l
 
 
 ## Resultado
-Resultado final: https://emnesty.github.io/lp-neon/
+Resultado final: https://lp-neon-code.netlify.app/
 
 ![screencapture-127-0-0-1-5500-index-html-2023-01-21-16_56_55 1](https://user-images.githubusercontent.com/7916851/213885005-6cc8de91-e2a8-41d9-b1a5-5cb20feeb0c3.png)
 
